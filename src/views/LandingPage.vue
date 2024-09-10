@@ -115,7 +115,7 @@ export default {
     // Get the full URL for the image
     getImageUrl(imagePath) {
       // Assuming the URL is already included in apiClient configuration
-      return `http://127.0.0.1:8000/storage/${imagePath}`;
+      return `https://wisebuy.co.ke/laravel/public/storage/${imagePath}`;
     },
     resetNewTour() {
       this.newTour = {
