@@ -142,7 +142,7 @@ export default {
     },
     // Get the full URL for the image
     getImageUrl(imagePath) {
-      return `https://wisebuy.co.ke/laravel/public/storage/${imagePath}`;
+      return `https://api.electriclink.co.ke/public/storage/${imagePath}`;
     },
     // Handle form submission
     submitBooking() {
