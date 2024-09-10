@@ -115,7 +115,7 @@ export default {
     // Get the full URL for the image
     getImageUrl(imagePath) {
       // Assuming the URL is already included in apiClient configuration
-      return `https://wisebuy.co.ke/laravel/public/storage/${imagePath}`;
+      return `https://api.electriclink.co.ke/public/storage/${imagePath}`;
     },
     resetNewTour() {
       this.newTour = {
