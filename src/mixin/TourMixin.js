@@ -183,7 +183,7 @@ export default {
       }
     },
     getImageUrl(imagePath) {
-      const url = imagePath ? `https://wisebuy.co.ke/laravel/public/storage/${imagePath}` : '';
+      const url = imagePath ? `https://api.electriclink.co.ke/public/storage/${imagePath}` : '';
       return url;
     }
   },
