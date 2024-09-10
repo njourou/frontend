@@ -72,12 +72,6 @@
                         <span v-if="!loading">Login</span>
                       </button>
                     </div>
-
-                    <div class="col-12">
-                      <p class="small mb-0">
-                        Don't have an account? <router-link to="/admin/register">Create an account</router-link>
-                      </p>
-                    </div>
                   </form>
 
                   <!-- Social Login -->
