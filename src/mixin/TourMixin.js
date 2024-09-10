@@ -183,7 +183,7 @@ export default {
       }
     },
     getImageUrl(imagePath) {
-      const url = imagePath ? `http://127.0.0.1:8000/storage/${imagePath}` : '';
+      const url = imagePath ? `https://wisebuy.co.ke/laravel/public/storage/${imagePath}` : '';
       return url;
     }
   },
