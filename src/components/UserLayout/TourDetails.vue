@@ -142,7 +142,7 @@ export default {
     },
     // Get the full URL for the image
     getImageUrl(imagePath) {
-      return `http://127.0.0.1:8000/storage/${imagePath}`;
+      return `https://wisebuy.co.ke/laravel/public/storage/${imagePath}`;
     },
     // Handle form submission
     submitBooking() {
